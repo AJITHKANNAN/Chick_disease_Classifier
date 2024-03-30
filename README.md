@@ -130,7 +130,7 @@ open up you local host and port
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
     ECR_REPOSITORY_NAME = simple-app
-    
+
 
 
 
@@ -139,7 +139,7 @@ open up you local host and port
 
 ## Save pass:
 
-s3cEZKH5yytiVnJ3h+eI3qhhzf9q1vNwEi6+q+WGdd+ACRCZ7JD6
+<!-- s3cEZKH5yytiVnJ3h+eI3qhhzf9q1vNwEi6+q+WGdd+ACRCZ7JD6 -->
 
 
 ## Run from terminal:

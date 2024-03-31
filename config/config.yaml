@@ -13,9 +13,12 @@ prepare_base_model:
   base_model_path: artifacts/prepare_base_model/base_model.h5  # VG16 actual model
   updated_base_model_path: artifacts/prepare_base_model/base_model_updated.h5 # custom end layer we added
 
-# h5 is to store large datasets
+# h5 is to store large models
 
-prepare_callbacks:
+
+# Callbacks used for Write TensorBoard logs after every batch of training to monitor your metrics. 
+# Periodically save your model to disk.
+prepare_callbacks:  
   root_dir: artifacts/prepare_callbacks
   tensorboard_root_log_dir: artifacts/prepare_callbacks/tensorboard_log_dir
   checkpoint_model_filepath: artifacts/prepare_callbacks/checkpoint_dir/model.h5
